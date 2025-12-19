@@ -1,0 +1,37 @@
+.noteForm { margin-bottom: 14px; }
+
+.noteFormGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.noteFormText { grid-column: 1 / -1; }
+.noteFormActions { grid-column: 1 / -1; display: flex; justify-content: flex-end; }
+
+.select {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 90px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  outline: none;
+  resize: vertical;
+}
+.textarea--error { border-color: var(--danger); }
+
+@media (max-width: 768px) {
+  .noteFormGrid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,23 @@
+.btn {
+  font-family: system-ui, Arial, sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  padding: 10px 12px;
+  background: var(--card);
+  transition: transform .12s ease, background .12s ease, color .12s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  background: var(--text);
+  color: var(--card);
+}
+
+.btn:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+  transform: none;
+}

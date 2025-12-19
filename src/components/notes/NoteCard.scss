@@ -1,0 +1,20 @@
+.noteCard {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+  background: rgba(0,0,0,.02);
+}
+body.theme-dark .noteCard { background: rgba(255,255,255,.04); }
+
+.noteTop { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
+.badge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.noteTitle { margin: 10px 0 6px; }
+.noteText { margin: 0 0 10px; color: var(--muted); }
+
+.noteActions { display: flex; gap: 8px; flex-wrap: wrap; }

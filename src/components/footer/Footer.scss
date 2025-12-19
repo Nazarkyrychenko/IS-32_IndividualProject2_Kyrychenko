@@ -1,0 +1,11 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 10px 0;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}

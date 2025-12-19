@@ -1,0 +1,14 @@
+.inputWrap { display: flex; flex-direction: column; gap: 6px; }
+.inputLabel { font-size: 13px; color: var(--muted); }
+
+.input {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.input--error { border-color: var(--danger); }
+.inputError { color: var(--danger); font-size: 12px; font-weight: 700; }
