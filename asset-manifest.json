@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IS-32_IndividualProject2_Kyrychenko/static/css/main.705b76cf.css",
+    "main.js": "/IS-32_IndividualProject2_Kyrychenko/static/js/main.9020579d.js",
+    "index.html": "/IS-32_IndividualProject2_Kyrychenko/index.html",
+    "main.705b76cf.css.map": "/IS-32_IndividualProject2_Kyrychenko/static/css/main.705b76cf.css.map",
+    "main.9020579d.js.map": "/IS-32_IndividualProject2_Kyrychenko/static/js/main.9020579d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.705b76cf.css",
+    "static/js/main.9020579d.js"
+  ]
+}
